@@ -9,9 +9,9 @@ export default function ContentTimer() {
         <h1 className="text-3xl font-semibold">Tempo limitado</h1>
         <span className=" text-lg">Nessas festas de fim de ano mande um presente para a pessoa amada e   compartilhe a alegria do Natal.</span>
       </div>
-      {/* <Timer 
+      <Timer 
         expiryTimestamp={1703473200000}
-      /> */}
+      />
       <Image 
         src={img2}
         alt='Imagem 2'
