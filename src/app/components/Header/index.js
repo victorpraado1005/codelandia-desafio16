@@ -3,7 +3,8 @@ import Image from 'next/image';
 import santa from '@/assets/images/santa.svg';
 import store from '@/assets/images/store.svg';
 
-export function Header() {
+
+export default function Header() {
   return(
     <div className="w-screen bg-pink flex flex-col items-center">
       <div className='w-4/5 py-24 flex flex-col items-center justify-center lg:flex-row lg:gap-32'>
