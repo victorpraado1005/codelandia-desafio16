@@ -1,6 +1,8 @@
 import img2 from '@/assets/images/img2.svg';
 import Image from 'next/image';
+
 import { Timer } from '../Timer';
+
 
 export default function ContentTimer() {
   return(
@@ -9,9 +11,8 @@ export default function ContentTimer() {
         <h1 className="text-3xl font-semibold">Tempo limitado</h1>
         <span className=" text-lg">Nessas festas de fim de ano mande um presente para a pessoa amada e   compartilhe a alegria do Natal.</span>
       </div>
-      <Timer 
-        expiryTimestamp={1703473200000}
-        //1735084800
+      <Timer
+        expiryTimestamp={1735095600000}
       />
       <Image 
         src={img2}

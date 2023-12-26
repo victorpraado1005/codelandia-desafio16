@@ -8,7 +8,7 @@ export function Timer({ expiryTimestamp }) {
     minutes,
     hours,
     days
-  } = useTimer({ expiryTimestamp }) 
+  } = useTimer({ expiryTimestamp })
 
   return(
     <div className='flex items-center gap-1 text-red font-semibold text-3xl xs:text-4xl'>
